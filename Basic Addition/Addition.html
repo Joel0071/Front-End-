@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+</head>
+<body>
+    <h1 align="center">Hello World</h1>
+    <br><br>
+    <form>
+        <fieldset class="cen">
+            <legend align="center">Addition</legend>
+            <label>Enter the First Number:</label>
+            <input type="text" placeholder="EX:2" id="num1">
+            <br><br>
+            <label>Enter the Second Number:</label>
+            <input type="text" placeholder="EX:6" id="num2">
+            <br><br>
+            <label>Answer:</label>
+            <label id="out">  </label><br><br><hr>
+            <input type="button" id ="lol" value="SUM" onclick="SUM()">
+            <input type="button" id="lol" value="RESET" onclick="RESET()" onmouseover="Change1()">
+            
+        </fieldset>
+    </form>
+    <script>
+        function SUM(){
+            let num1=parseInt(document.getElementById("num1").value);
+            let num2=parseInt(document.getElementById("num2").value);
+            let sum=num1+num2;
+            let out=document.getElementById("out").innerHTML=sum;
+            
+        }
+        function RESET(){
+            document.getElementById("num1").value=""
+            document.getElementById("num2").value=""
+            document.getElementById("out").innerHTML=""
+        }
+        
+    </script>
+</body>
+</html>

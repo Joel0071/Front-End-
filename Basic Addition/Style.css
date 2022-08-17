@@ -1,0 +1,27 @@
+h1{
+    color: rgba(255, 0, 255, 0.664);
+    font-size: xx-large;
+}
+.cen{
+    text-align: center;
+}
+fieldset{
+    background-color: aqua;
+    padding: 40px;
+    text-align: center;
+}
+label{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+}
+
+#lol{
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+#lol:hover{
+    background-color: rgb(132, 0, 255);
+}
