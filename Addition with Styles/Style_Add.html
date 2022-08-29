@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Addition</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Addition of Two Numbers</h1>
+    Enter Number 1:
+    <input type="number" id="No1" placeholder="Enter First Number"><br>
+    Enter Number 2:
+    <input type="number" id="No2" placeholder="Enter Second Number"><br><br>
+    Answer: 
+    <input id="lol" placeholder="Answer will appear here"><br><br>
+    <input type="button" value="Add" onclick="Add()">
+    <input type="button" value="Reset" onclick="Reset()">
+    <Script>
+        function Add(){
+            const a=parseInt(document.getElementById("No1").value);
+            const b=parseInt(document.getElementById("No2").value);
+            const c=a+b;
+            document.getElementById("lol").value=c;
+        }
+        
+        function Reset(){
+            document.getElementById("No1").value="";
+            document.getElementById("No2").value="";
+            document.getElementById("lol").value="";
+        }
+    </Script>
+</body>
+</html>
