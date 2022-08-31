@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Display_Properties</title>
+</head>
+<body>
+    <div class="con">
+        <h1 align="center">Welcome to Boxes</h1><br>
+        <p align="center" id="pp">Hover Over the Boxes</p><br>
+    </div>
+    <div class="Container">
+        <div class="Container-1" id="hell-1" onmouseover="ch_1()">1</div>
+        <div class="Container-2" id="hell-2" onmouseover="ch_2()">2</div>
+        <div class="Container-3" id="hell-3" onmouseover="ch_3()">3</div>
+        <div class="Container-4" id="hell-4" onmouseover="ch_4()">4</div>
+    </div>
+    <br><br>
+    <input type="button" value="Click" id="butt" onclick="clic()">
+    <br><br>
+    <p id="p1"> </p>
+    <p id="p2"> </p>
+    <p id="p3"> </p>
+    <p id="p4"> </p>
+    
+    <script>
+        function ch_1(){
+            document.getElementById("hell-1").innerHTML="Hello";
+        }
+        function ch_2(){
+            document.getElementById("hell-2").innerHTML="These";
+        }
+        function ch_3(){
+            document.getElementById("hell-3").innerHTML="are";
+        }
+        function ch_4(){
+            document.getElementById("hell-4").innerHTML="Boxes";
+        }
+        function clic(){
+            document.getElementById("p1").innerHTML="J";
+            document.getElementById("p1").style.position="relative";
+            document.getElementById("p1").style.left="480px";
+            document.getElementById("p1").style.fontSize="50px";
+            document.getElementById("p1").style.transition="3s";
+            document.getElementById("p1").style.transitionDelay="0s";
+            
+            
+            document.getElementById("p2").innerHTML="O";
+            document.getElementById("p2").style.position="relative";
+            document.getElementById("p2").style.left="580px";
+            document.getElementById("p2").style.fontSize="50px";
+            document.getElementById("p2").style.transition="3s";
+            document.getElementById("p2").style.transitionDelay="1s";
+            
+            document.getElementById("p3").innerHTML="E";
+            document.getElementById("p3").style.position="relative";
+            document.getElementById("p3").style.left="680px";
+            document.getElementById("p3").style.fontSize="50px";
+            document.getElementById("p3").style.transition="3s";
+            document.getElementById("p3").style.transitionDelay="2s";
+            
+            document.getElementById("p4").innerHTML="L";
+            document.getElementById("p4").style.position="relative";
+            document.getElementById("p4").style.left="780px";
+            document.getElementById("p4").style.fontSize="50px";
+            document.getElementById("p4").style.transition="3s";
+            document.getElementById("p4").style.transitionDelay="3s";
+            
+        }
+    </script>
+</body>
+</html>
