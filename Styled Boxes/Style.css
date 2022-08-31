@@ -1,0 +1,108 @@
+.con{
+    background: linear-gradient(to bottom,rgb(189, 180, 63),white);
+}
+
+p{
+    display: inline-block;
+}
+
+#pp{
+    display: block;
+}
+.Container{
+    background-color: aqua;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom,rgb(238, 231, 129),white);
+}
+
+.Container-1{
+    display: inline-block;
+    background-color: bisque;
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Container-1:hover{
+    background-color: beige;
+    cursor: pointer;
+    box-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+
+.Container-2{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Container-2:hover{
+    background-color:rgb(198, 210, 30);
+    cursor: pointer;
+    box-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+
+.Container-3{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Container-3:hover{
+    background-color: rgb(220, 236, 245);
+    cursor: pointer;
+    box-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+
+.Container-4{
+    display: inline-block;
+    background-color: rgb(226, 43, 73);
+    width: 23%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Container-4:hover{
+    background-color: rgb(245, 220, 220);
+    cursor: pointer;
+    box-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+
+input[type="button"]{
+    position: relative;
+    left: 630px;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: rgb(127, 129, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transition: 00.5s;
+    box-shadow: 4px 4px black;
+}
