@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 align="center">Following is a Carousel</h1><br>
+    <section class="Carousel">
+        <div class="buttons">
+            <div class="m_button" onclick="Prevslide()">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="m_button" onclick="NextSlide()">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="indicators">
+
+            <p class="indi_1" id="indi" onclick="MoveTo(1)">
+            </p>
+            <p class="indi_2" id="indi" onclick="MoveTo(2)">
+            </p>
+            <p class="indi_3" id="indi" onclick="MoveTo(3)">
+            </p>
+            <p class="indi_4" id="indi" onclick="MoveTo(4)">
+            </p>
+
+        </div>
+        <div class="slider">
+            <div class="child_1">
+                <img id="c_4" src="Add_Profile.png">
+            </div>
+            <div class="child_1">
+                <img  id="c_1" src="Tony_Stark.jpg">
+            </div>
+            <div class="child_1">
+                <img id="c_2" src="facebook-display.jpg">
+            </div>
+            <div class="child_1">
+                <img  id="c_3" src="facebook.jpeg">
+            </div>
+            <div class="child_1">
+                <img id="c_4" src="Add_Profile.png">
+            </div>
+            <div class="child_1">
+                <img id="c_1" src="Tony_Stark.jpg">
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
